@@ -1,5 +1,6 @@
 <script setup>
 
+import JaugeChartComponent from "@/components/JaugeChartComponent.vue";
 </script>
 
 <template>
@@ -13,6 +14,8 @@
         <h2>DAU régulier</h2>
         <p class="data-key-dau">4 336</p>
       </div>
+
+      <JaugeChartComponent />
 
       <button class="btn btn-reset">RESET Data</button>
     </div>
@@ -31,6 +34,7 @@ div {
 
 .info-container-content {
   gap: 3em;
+  padding: 2em;
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -1,0 +1,74 @@
+{
+  "labels": [
+    "Janvier",
+    "Février",
+    "Mars",
+    "Avril",
+    "mai",
+    "Juin",
+    "Juillet",
+    "Aout",
+    "Septembre",
+    "Octobre",
+    "Novembre",
+    "Décembre"
+  ],
+  "values": [18, 56, 23, 57, 33, 67, 70, 76, 23, 45, 26, 17],
+  "doughnut1": {
+    "labels": [
+      "Hotel",
+      "AirBnb",
+      "Auberges"
+    ],
+    "datasets": [{
+      "label": "établissement",
+      "data": [300, 50, 100],
+      "backgroundColor": [
+        "rgb(255, 99, 132)",
+        "rgb(54, 162, 235)",
+        "rgb(255, 205, 86)"
+      ],
+      "borderColor": "rgb(255,255,255)"
+    }]
+  },
+  "doughnut2": {
+    "labels": [
+      "1 Nuit",
+      "2 Nuit",
+      "4 Nuit",
+      "3 Nuit",
+      "6 Nuit",
+      "13 Nuit"
+    ],
+    "datasets": [{
+      "label": "popular count night",
+      "data": [50, 17, 10, 10, 7, 6],
+      "backgroundColor": [
+        "rgb(229,25,70)",
+        "rgb(51,159,232)",
+        "rgb(255, 205, 86)",
+        "rgb(51,126,34)",
+        "rgb(14,51,143)",
+        "rgb(245,29,227)"
+      ],
+      "borderColor": "rgb(255,255,255)"
+    }]
+  },
+  "doughnut3": {
+    "labels": [
+      "Revenue",
+      "Dépense"
+    ],
+    "datasets": [{
+      "label": "Bénéfice / Dépense",
+      "data": [65, 35],
+      "backgroundColor": [
+        "rgb(56,255,0)",
+        "rgb(108,8,8)"
+      ],
+      "borderColor": "rgb(255,255,255)"
+    }]
+  }
+}
+
+
